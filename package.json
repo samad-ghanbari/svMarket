@@ -5,7 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"sv-dev": "vite dev",
-		"dev": "vite build && npx ts-node index.mts",
+		"ex-dev": "npx ts-node-dev index.mts",
+		"build-svex": "vite build && npx ts-node index.mts",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",

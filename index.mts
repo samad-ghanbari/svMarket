@@ -1,14 +1,14 @@
 import express from 'express';
-import { handler } from './build/handler.js';
+//import { handler } from './build/handler.js';
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.get('/api', (req, res) => {
-	res.send('Hello from Express!');
+	res.send('Hello from Express!!');
 });
 
-app.use(handler);
+//app.use(handler);
 
 app.listen(port, () => {
 	console.log(`Express server running at http://localhost:${port}`);
