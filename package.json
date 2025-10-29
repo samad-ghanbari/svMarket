@@ -46,8 +46,10 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.4.0",
+		"dotenv": "^17.2.3",
 		"express": "^5.1.0",
 		"flowbite-svelte": "^1.20.0",
-		"heroicons-svelte": "^2.0.2"
+		"heroicons-svelte": "^2.0.2",
+		"mongoose": "^8.19.2"
 	}
 }

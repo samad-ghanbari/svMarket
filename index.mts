@@ -1,8 +1,11 @@
 import express from 'express';
+import dotenv from 'dotenv';
+
 //import { handler } from './build/handler.js';
 
+dotenv.config();
+
 const app = express();
-const port = 4000;
 
 app.get('/api', (req, res) => {
 	res.send('Hello from Express!!');
@@ -10,6 +13,6 @@ app.get('/api', (req, res) => {
 
 //app.use(handler);
 
-app.listen(port, () => {
-	console.log(`Express server running at http://localhost:${port}`);
+app.listen(process.env.EX_PORT, () => {
+	console.log(`Express server running at http://localhost:${process.env.EX_PORT}`);
 });
