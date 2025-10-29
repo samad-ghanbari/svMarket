@@ -1,6 +1,7 @@
 <script>
 	import { Alert } from 'flowbite-svelte';
-	import { HomeIcon } from 'heroicons-svelte/24/solid';
+	import { HomeIcon as HomeSolid } from 'heroicons-svelte/24/solid';
+	import { HomeIcon as HomeOutline } from 'heroicons-svelte/24/outline';
 </script>
 
 <Alert>
@@ -8,7 +9,8 @@
 	Change a few things up and try submitting again.
 </Alert>
 
-<HomeIcon class="h-8 w-8 text-blue-500" />
+<HomeSolid class="h-8 w-8 text-blue-500" />
+<HomeOutline class="h-8 w-8 text-red-300" />
 
 <h1>تست آزمایشی فونت</h1>
 <h1 class="font-yekan text-4xl">تست آزمایشی فونت</h1>

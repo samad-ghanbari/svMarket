@@ -38,6 +38,7 @@
 		"vite": "^7.1.7"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-node": "^5.4.0",
 		"flowbite-svelte": "^1.20.0",
 		"heroicons-svelte": "^2.0.2"
 	}
