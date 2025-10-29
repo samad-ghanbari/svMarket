@@ -1,3 +1,97 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@font-face {
+	font-family: 'Yekan';
+	src: url('/assets/fonts/BYekan.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Yekan';
+	src: url('/assets/fonts/BYekan-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Kalameh';
+	src: url('/assets/fonts/Kalameh-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Kalameh';
+	src: url('/assets/fonts/Kalameh-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Phamelo';
+	src: url('/assets/fonts/Phamelo.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Times';
+	src: url('/assets/fonts/times.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Times';
+	src: url('/assets/fonts/timesbd.woff2') format('woff2');
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+html {
+	font-family: Kalameh, Yekan, Times;
+	font-size: 16px;
+}
+
+.font-yekan {
+	font-family: Yekan;
+}
+.font-yekan-bold {
+	font-family: Yekan;
+	font-style: bold;
+	font-weight: 700;
+}
+
+.font-kalameh {
+	font-family: Kalameh;
+}
+.font-kalameh-bold {
+	font-family: Kalameh;
+	font-style: bold;
+	font-weight: 700;
+}
+
+.font-phamelo {
+	font-family: Phamelo;
+}
+.font-phamelo-bold {
+	font-family: Phamelo;
+	font-style: bold;
+	font-weight: 700;
+}
+
+.font-times {
+	font-family: Times;
+}
+.font-times-bold {
+	font-family: Times;
+	font-style: bold;
+	font-weight: 700;
+}
