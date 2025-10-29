@@ -10,6 +10,7 @@
 </Alert>
 
 <HomeSolid class="h-8 w-8 text-blue-500" />
+<br />
 <HomeOutline class="h-8 w-8 text-red-300" />
 
 <h1>تست آزمایشی فونت</h1>
