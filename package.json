@@ -3,6 +3,9 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"imports": {
+		"#backend/*": "./backend/*"
+	},
 	"scripts": {
 		"sv-dev": "vite dev",
 		"ex-dev": "npx ts-node-dev index.mts",
