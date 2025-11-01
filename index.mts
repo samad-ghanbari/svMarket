@@ -4,7 +4,7 @@ import mainRouter from '#backend/routes/mainRouter.mts';
 
 //import { handler } from './build/handler.js';
 
-dotenv.config();
+dotenv.config({ debug: false });
 
 const app = express();
 
