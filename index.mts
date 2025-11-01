@@ -10,10 +10,6 @@ const app = express();
 
 app.use('/api', mainRouter);
 
-// app.get('/api', (req, res) => {
-// 	res.send('Hello from Express!!');
-// });
-
 //app.use(handler);
 
 app.listen(process.env.EX_PORT, () => {
