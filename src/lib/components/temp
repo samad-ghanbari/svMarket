@@ -1,0 +1,703 @@
+<div class="bg-neutral-000 relative z-5 w-full">
+	<div class=" container-4xl-w relative mx-auto flex w-full grow justify-between md:px-4">
+		<div class="relative z-2 flex w-full py-3">
+			<div class="flex flex-1 grow items-center">
+				<a class="ml-5 shrink-0" data-cro-id="header-digikala-logo" href="/"
+					><div style="width: 195px; height: 30px; line-height: 0;">
+						<img
+							class="inline-block w-full"
+							src="/assets/images/logo/logo512.png"
+							width="50"
+							height="50"
+							style="object-fit: contain;"
+							alt=""
+							title=""
+						/>
+					</div>
+				</a>
+				<div class="ml-auto flex grow">
+					<div class="relative">
+						<div class="flex items-center justify-between">
+							<div class="BaseLayoutSearch_BaseLayoutSearch__QHPTB flex-1">
+								<div
+									data-cro-id="searchbox-click"
+									class="SearchInput_SearchInput__HB9qi SearchInput_SearchInput__searchInput__CEpaj ellipsis text-body-2 flex grow items-center rounded-sm bg-neutral-100 px-0 lg:px-4"
+								>
+									<div class="w-full rounded-md lg:rounded-full">
+										<div class="flex h-9 min-w-0 grow items-center justify-between">
+											<div class="flex cursor-pointer">
+												<svg
+													style="width: 24px; height: 24px; fill: var(--color-icon-low-emphasis);"
+													><use xlink:href="#searchSearch"></use></svg
+												>
+											</div>
+											<span data-cro-id="searchbox-type" class="ellipsis grow px-2 lg:px-4"
+												><div
+													class="lg:text-body-2 text-button-1 text-body-2 flex h-full items-center text-neutral-500"
+												>
+													جستجو
+												</div>
+												<div class="absolute top-2 right-13 flex"></div></span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a
+						class="mr-6 hidden"
+						data-ab-id="plus_base_layout_header_touchpoint"
+						href="/plus/landing/"
+						><div style="width: 90px; height: 45px; line-height: 0;">
+							<img
+								class="inline-block w-full"
+								src="/statics/img/svg/digiplus/digiplus-text-logo-desktop.svg"
+								width="90"
+								height="45"
+								style="object-fit: contain;"
+							/>
+						</div></a
+					>
+				</div>
+			</div>
+			<div class="flex items-center justify-end">
+				<a
+					class="relative ml-3 flex shrink-0 cursor-pointer items-center justify-center p-2"
+					href="/profile/notification/"
+					><div class="flex">
+						<div
+							style="width: 24px; height: 24px; font-size: 24px; font-weight: normal; color: var(--color-icon-high-emphasis);"
+							class="cube-font-icon"
+							data-icon-name="cube-alert-notification-outline"
+							data-icon=""
+						></div>
+					</div></a
+				>
+				<div class="relative ml-2 shrink-0 cursor-pointer lg:ml-0">
+					<div
+						class="styles_BaseLayoutMiniProfile__button__DHUHQ relative flex rounded p-2"
+						data-cro-id="HP-profile-header"
+					>
+						<div>
+							<div class="flex">
+								<svg style="width: 24px; height: 24px;"><use xlink:href="#profileOff"></use></svg>
+							</div>
+						</div>
+						<div class="flex">
+							<svg style="width: 20px; height: 20px; fill: var(--color-icon-high-emphasis);"
+								><use xlink:href="#dropdown"></use></svg
+							>
+						</div>
+					</div>
+				</div>
+				<span
+					class="styles_BaseLayoutHeaderUserSection__divider__5TsZs mx-3 hidden bg-neutral-200 lg:block"
+				></span>
+				<div class="relative flex flex-col">
+					<a
+						class="bg-neutral-000 relative inline-flex rounded py-2 pr-2 pl-0 lg:p-2"
+						data-cro-id="header-cart"
+						href="/checkout/cart/"
+						><div class="flex">
+							<svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);"
+								><use xlink:href="#cartOff"></use></svg
+							>
+						</div>
+						<div
+							class="styles_BaseLayoutMiniCart__cartCountBadge__bQVtD absolute right-0 bottom-0 flex items-center justify-center bg-primary-500 text-white"
+						>
+							<span
+								class="text-caption-strong styles_BaseLayoutMiniCart__cartCountBadgeText__D84pJ relative"
+								>۴</span
+							>
+						</div></a
+					>
+					<div
+						class="styles_MiniCartPopup__popup__7z9H_ bg-neutral-000 shadow-3-bottom styles_BaseLayoutMiniCart__container__NMEVO absolute z-1 hidden rounded"
+					>
+						<div class="flex items-center px-3 py-2">
+							<span class="text-body-2 text-neutral-600">۴ کالا</span>
+						</div>
+						<div class="styles_MiniCartPopup__items__JUJlY overflow-auto">
+							<div class="br-list-vertical-0 mx-3 py-4" data-testid="cart-item">
+								<div class="styles_CartItem__grid__rZXPE">
+									<div class="flex flex-col items-center">
+										<a
+											class="relative"
+											href="/product/dkp-4741849/%DA%A9%DB%8C%D9%81-%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%DA%86%DB%8C-%D9%86%D9%87%D9%84-%D9%85%D8%AF%D9%84-%D9%85%D9%84%D8%A7%D9%86%DA%98/"
+											><div style="width: 114px; height: 114px; line-height: 0;">
+												<picture
+													><source
+														type="image/webp"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/25cd7266031a354d58e0442e671507ed8ce7436f_1617793503.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+													/><source
+														type="image/jpeg"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/25cd7266031a354d58e0442e671507ed8ce7436f_1617793503.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+													/><img
+														class="inline-block w-full"
+														src="https://dkstatics-public.digikala.com/digikala-products/25cd7266031a354d58e0442e671507ed8ce7436f_1617793503.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+														width="114"
+														height="114"
+														style="object-fit: contain;"
+														alt="کیف محافظ ساعت مچی نهل مدل ملانژ"
+														title=""
+													/></picture
+												>
+											</div>
+											<div
+												class="bg-neutral-000 rounded-small text-caption-strong styles_CartItem__imageQuantity__bzt41 absolute bottom-0 left-0 hidden text-center text-neutral-900"
+											>
+												۱
+											</div></a
+										>
+										<div class="mr-2">
+											<div class="text-h5 mt-2 flex flex-col items-center py-2"><div></div></div>
+										</div>
+									</div>
+									<div class="overflow-x-hidden">
+										<div class="">
+											<h3 class="text-body1-strong mb-2 text-neutral-800">
+												کیف محافظ ساعت مچی نهل مدل ملانژ
+											</h3>
+											<div class="flex">
+												<div class="mt-1 flex">
+													<svg style="width: 18px; height: 18px; fill: rgb(33, 33, 33);"
+														><use xlink:href="#variationColor"></use></svg
+													>
+												</div>
+												<p class="text-body-2 mr-2 text-neutral-600">مشکی</p>
+											</div>
+											<div class="relative flex w-full flex-col">
+												<ul class="flex flex-col">
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-express);"
+																><use xlink:href="#deliveryExpress"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال دیجی‌کالا
+														</p>
+													</li>
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-jet-expansion);"
+																><use xlink:href="#deliveryToday"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال سریع دیجی‌کالا (تهران و کرج)
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-col items-center">
+										<div
+											class="user-select-none rounded-medium border-complete-200 item-quantity_ItemQuantity__box__5r4FJ flex items-center justify-between px-2"
+										>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-increase"
+													data-cro-id="cart-add-quantity"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#addSimple"></use></svg
+												>
+											</div>
+											<span class="flex flex-col items-center justify-between text-primary-500"
+												><span class="text-h5 relative flex items-center justify-center">۱</span
+												></span
+											>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-decrease"
+													data-cro-id="cart-delete-item-right"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#delete"></use></svg
+												>
+											</div>
+										</div>
+									</div>
+									<div class="h-[40px]">
+										<div class="flex items-center justify-between">
+											<div>
+												<div class="ml-4 flex items-center justify-start">
+													<div class="flex items-center justify-start gap-1">
+														<span class="text-h4 text-neutral-800">۱۷۷,۰۰۰</span>
+													</div>
+													<div class="flex items-center justify-between">
+														<div class="flex items-center">
+															<div class="flex">
+																<svg
+																	style="width: 18px; height: 18px; fill: var(--color-icon-high-emphasis);"
+																	><use xlink:href="#toman"></use></svg
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="a-center ml-4 flex flex-row-reverse"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="br-list-vertical-0 mx-3 py-4" data-testid="cart-item">
+								<div class="styles_CartItem__grid__rZXPE">
+									<div class="flex flex-col items-center">
+										<a
+											class="relative"
+											href="/product/dkp-19280257/%D8%AC%D8%A7%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-%D9%BE%D8%AF%D8%B1%D8%A7%D9%85-%DA%A9%D8%AF-019/"
+											><div style="width: 114px; height: 114px; line-height: 0;">
+												<picture
+													><source
+														type="image/webp"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/712ceba70a7f99d374f704fd44b6ac553774d71f_1748678548.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+													/><source
+														type="image/jpeg"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/712ceba70a7f99d374f704fd44b6ac553774d71f_1748678548.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+													/><img
+														class="inline-block w-full"
+														src="https://dkstatics-public.digikala.com/digikala-products/712ceba70a7f99d374f704fd44b6ac553774d71f_1748678548.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+														width="114"
+														height="114"
+														style="object-fit: contain;"
+														alt="جاکلیدی مدل پدرام کد 019"
+														title=""
+													/></picture
+												>
+											</div>
+											<div
+												class="bg-neutral-000 rounded-small text-caption-strong styles_CartItem__imageQuantity__bzt41 absolute bottom-0 left-0 hidden text-center text-neutral-900"
+											>
+												۱
+											</div></a
+										>
+										<div class="mr-2">
+											<div class="text-h5 mt-2 flex flex-col items-center py-2"><div></div></div>
+										</div>
+									</div>
+									<div class="overflow-x-hidden">
+										<div class="">
+											<h3 class="text-body1-strong mb-2 text-neutral-800">
+												جاکلیدی مدل پدرام کد 019
+											</h3>
+											<div class="flex">
+												<div class="mt-1 flex">
+													<svg style="width: 18px; height: 18px; fill: rgb(42, 53, 0);"
+														><use xlink:href="#variationColor"></use></svg
+													>
+												</div>
+												<p class="text-body-2 mr-2 text-neutral-600">سبز لجنی</p>
+											</div>
+											<div class="relative flex w-full flex-col">
+												<ul class="flex flex-col">
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-icon-high-emphasis);"
+																><use xlink:href="#deliveryExpress"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال دیجی‌کالا از ۲ روز کاری دیگر
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-col items-center">
+										<div
+											class="user-select-none rounded-medium border-complete-200 item-quantity_ItemQuantity__box__5r4FJ flex items-center justify-between px-2"
+										>
+											<div class="pointer-events-none flex cursor-pointer p-0 opacity-50 lg:p-0">
+												<svg
+													data-testid="quantity-increase"
+													data-cro-id="cart-add-quantity"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#addSimple"></use></svg
+												>
+											</div>
+											<span class="flex flex-col items-center justify-between text-primary-500"
+												><span
+													class="text-h5 item-quantity_ItemQuantity__boxCount__9ZT6i relative flex items-center justify-center"
+													>۱</span
+												><small class="text-caption text-neutral-300">حداکثر</small></span
+											>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-decrease"
+													data-cro-id="cart-delete-item-right"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#delete"></use></svg
+												>
+											</div>
+										</div>
+									</div>
+									<div class="h-[40px]">
+										<div class="flex items-center justify-between">
+											<div>
+												<div class="ml-4 flex items-center justify-start">
+													<div class="flex items-center justify-start gap-1">
+														<span class="text-h4 text-neutral-800">۶۸۰,۰۰۰</span>
+													</div>
+													<div class="flex items-center justify-between">
+														<div class="flex items-center">
+															<div class="flex">
+																<svg
+																	style="width: 18px; height: 18px; fill: var(--color-icon-high-emphasis);"
+																	><use xlink:href="#toman"></use></svg
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="a-center ml-4 flex flex-row-reverse"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="br-list-vertical-0 mx-3 py-4" data-testid="cart-item">
+								<div class="styles_CartItem__grid__rZXPE">
+									<div class="flex flex-col items-center">
+										<a
+											class="relative"
+											href="/product/dkp-19312508/%D9%BE%D8%A7%DB%8C%D9%87-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%D9%86%D8%AF%D9%87-%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%88-%D8%AA%D8%A8%D9%84%D8%AA-%D9%87%D8%A7%DB%8C%DA%A9%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D9%85%D8%AF%D9%84-hs-h12/"
+											><div style="width: 114px; height: 114px; line-height: 0;">
+												<picture
+													><source
+														type="image/webp"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/dcb2af85dbf064344f2405bada792f4e36f28c10_1748846260.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+													/><source
+														type="image/jpeg"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/dcb2af85dbf064344f2405bada792f4e36f28c10_1748846260.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+													/><span
+														class="inline-block w-full"
+														style="display: inline-block; object-fit: contain; width: 114px; height: 114px;"
+													></span></picture
+												>
+											</div>
+											<div
+												class="bg-neutral-000 rounded-small text-caption-strong styles_CartItem__imageQuantity__bzt41 absolute bottom-0 left-0 hidden text-center text-neutral-900"
+											>
+												۱
+											</div></a
+										>
+										<div class="mr-2">
+											<div class="text-h5 mt-2 flex flex-col items-center py-2"><div></div></div>
+										</div>
+									</div>
+									<div class="overflow-x-hidden">
+										<div class="">
+											<h3 class="text-body1-strong mb-2 text-neutral-800">
+												پایه نگهدارنده گوشی موبایل و تبلت هایکواستار مدل HS-H12
+											</h3>
+											<div class="flex">
+												<div class="mt-1 flex">
+													<svg style="width: 18px; height: 18px; fill: rgb(222, 222, 222);"
+														><use xlink:href="#variationColor"></use></svg
+													>
+												</div>
+												<p class="text-body-2 mr-2 text-neutral-600">نقره ای</p>
+											</div>
+											<div class="relative flex w-full flex-col">
+												<ul class="flex flex-col">
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-express);"
+																><use xlink:href="#deliveryExpress"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال دیجی‌کالا
+														</p>
+													</li>
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-jet-expansion);"
+																><use xlink:href="#deliveryToday"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال سریع دیجی‌کالا (تهران و کرج)
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-col items-center">
+										<div
+											class="user-select-none rounded-medium border-complete-200 item-quantity_ItemQuantity__box__5r4FJ flex items-center justify-between px-2"
+										>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-increase"
+													data-cro-id="cart-add-quantity"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#addSimple"></use></svg
+												>
+											</div>
+											<span class="flex flex-col items-center justify-between text-primary-500"
+												><span class="text-h5 relative flex items-center justify-center">۱</span
+												></span
+											>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-decrease"
+													data-cro-id="cart-delete-item-right"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#delete"></use></svg
+												>
+											</div>
+										</div>
+									</div>
+									<div class="h-[40px]">
+										<div class="flex items-center justify-between">
+											<div>
+												<div class="ml-4 flex items-center justify-start">
+													<div class="flex items-center justify-start gap-1">
+														<span class="text-h4 text-neutral-800">۶۵۰,۰۰۰</span>
+													</div>
+													<div class="flex items-center justify-between">
+														<div class="flex items-center">
+															<div class="flex">
+																<svg
+																	style="width: 18px; height: 18px; fill: var(--color-icon-high-emphasis);"
+																	><use xlink:href="#toman"></use></svg
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="a-center ml-4 flex flex-row-reverse"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="br-list-vertical-0 mx-3 py-4" data-testid="cart-item">
+								<div class="styles_CartItem__grid__rZXPE">
+									<div class="flex flex-col items-center">
+										<a
+											class="relative"
+											href="/product/dkp-20435789/%D8%AC%D8%A7%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%DA%86%D8%B1%D9%85-%D9%85%D8%B4%D9%87%D8%AF-%D9%85%D8%AF%D9%84-g5047-005-01/"
+											><div style="width: 114px; height: 114px; line-height: 0;">
+												<picture
+													><source
+														type="image/webp"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/014e49bc3c2c55c1cbc4c2a5a2caf4e745f024a3_1758092772.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/format,webp/quality,q_80"
+													/><source
+														type="image/jpeg"
+														srcset="https://dkstatics-public.digikala.com/digikala-products/014e49bc3c2c55c1cbc4c2a5a2caf4e745f024a3_1758092772.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+													/><span
+														class="inline-block w-full"
+														style="display: inline-block; object-fit: contain; width: 114px; height: 114px;"
+													></span></picture
+												>
+											</div>
+											<div
+												class="bg-neutral-000 rounded-small text-caption-strong styles_CartItem__imageQuantity__bzt41 absolute bottom-0 left-0 hidden text-center text-neutral-900"
+											>
+												۱
+											</div></a
+										>
+										<div class="mr-2">
+											<div class="text-h5 mt-2 flex flex-col items-center py-2"><div></div></div>
+										</div>
+									</div>
+									<div class="overflow-x-hidden">
+										<div class="">
+											<h3 class="text-body1-strong mb-2 text-neutral-800">
+												جاکلیدی چرم مشهد مدل G5047-005-01
+											</h3>
+											<div class="flex">
+												<div class="mt-1 flex">
+													<svg style="width: 18px; height: 18px; fill: rgb(206, 193, 177);"
+														><use xlink:href="#variationColor"></use></svg
+													>
+												</div>
+												<p class="text-body-2 mr-2 text-neutral-600">خاکی</p>
+											</div>
+											<div class="relative flex w-full flex-col">
+												<ul class="flex flex-col">
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-express);"
+																><use xlink:href="#deliveryExpress"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال دیجی‌کالا
+														</p>
+													</li>
+													<li class="ml-3 flex items-center">
+														<div class="flex">
+															<svg
+																style="width: 14px; height: 14px; fill: var(--color-delivery-jet-expansion);"
+																><use xlink:href="#deliveryToday"></use></svg
+															>
+														</div>
+														<p class="text-body-2 ellipsis mr-2 text-neutral-500">
+															ارسال سریع دیجی‌کالا (تهران و کرج)
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="flex flex-col items-center">
+										<div
+											class="user-select-none rounded-medium border-complete-200 item-quantity_ItemQuantity__box__5r4FJ flex items-center justify-between px-2"
+										>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-increase"
+													data-cro-id="cart-add-quantity"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#addSimple"></use></svg
+												>
+											</div>
+											<span class="flex flex-col items-center justify-between text-primary-500"
+												><span class="text-h5 relative flex items-center justify-center">۱</span
+												></span
+											>
+											<div class="flex cursor-pointer">
+												<svg
+													data-testid="quantity-decrease"
+													data-cro-id="cart-delete-item-right"
+													style="width: 18px; height: 18px; fill: var(--color-icon-primary);"
+													><use xlink:href="#delete"></use></svg
+												>
+											</div>
+										</div>
+									</div>
+									<div class="h-[40px]">
+										<div class="flex items-center justify-between">
+											<div>
+												<div class="ml-4 flex items-center justify-start">
+													<div class="flex items-center justify-start gap-1">
+														<span class="text-h4 text-neutral-800">۱,۷۹۸,۰۰۰</span>
+													</div>
+													<div class="flex items-center justify-between">
+														<div class="flex items-center">
+															<div class="flex">
+																<svg
+																	style="width: 18px; height: 18px; fill: var(--color-icon-high-emphasis);"
+																	><use xlink:href="#toman"></use></svg
+																>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="a-center ml-4 flex flex-row-reverse"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="border-complete-t flex items-center px-3 py-2">
+							<div class="ml-auto flex flex-col">
+								<p class="text-caption text-neutral-500">مبلغ قابل پرداخت</p>
+								<div>
+									<div class="flex items-center justify-start">
+										<div class="flex items-center justify-start gap-1">
+											<span class="text-h4 ml-1 text-neutral-800">۳,۳۰۵,۰۰۰</span>
+										</div>
+										<div class="flex items-center justify-between">
+											<div class="flex items-center">
+												<div class="flex">
+													<svg
+														style="width: 16px; height: 16px; fill: var(--color-icon-high-emphasis);"
+														><use xlink:href="#toman"></use></svg
+													>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a
+								class="user-select-none styles_btn__Q4MvL text-button-1 styles_btn--large__1Muai styles_btn--primary__y0GEv rounded-medium relative mr-auto flex items-center"
+								data-cro-id="header-submit-order"
+								href="/checkout/cart/"
+								><div class="relative flex grow items-center justify-center">ثبت سفارش</div></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<div class=" container-4xl-w relative mx-auto flex w-full grow justify-between md:px-4">
+
+
+        
+		<div class="relative z-2 flex w-full py-3">
+			<div class="flex flex-1 grow items-center">
+				<a class="ml-5 shrink-0" data-cro-id="header-digikala-logo" href="/"
+					><div style="width: 195px; height: 30px; line-height: 0;">
+						<img
+							class="inline-block w-full"
+							src="/assets/images/logo/logo512.png"
+							width="50"
+							height="50"
+							style="object-fit: contain;"
+							alt=""
+							title=""
+						/>
+					</div>
+				</a>
+				<div class="ml-auto flex grow">
+					<div class="relative">
+						<div class="flex items-center justify-between">
+							<div class="BaseLayoutSearch_BaseLayoutSearch__QHPTB flex-1">
+								<div
+									data-cro-id="searchbox-click"
+									class="SearchInput_SearchInput__HB9qi SearchInput_SearchInput__searchInput__CEpaj ellipsis text-body-2 flex grow items-center rounded-sm bg-neutral-100 px-0 lg:px-4"
+								>
+									<div class="w-full rounded-md lg:rounded-full">
+										<div class="flex h-9 min-w-0 grow items-center justify-between">
+											<div class="flex cursor-pointer">
+												<svg
+													style="width: 24px; height: 24px; fill: var(--color-icon-low-emphasis);"
+													><use xlink:href="#searchSearch"></use></svg
+												>
+											</div>
+											<span data-cro-id="searchbox-type" class="ellipsis grow px-2 lg:px-4"
+												><div
+													class="lg:text-body-2 text-button-1 text-body-2 flex h-full items-center text-neutral-500"
+												>
+													جستجو
+												</div>
+												<div class="absolute top-2 right-13 flex"></div></span
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flex items-center justify-end">
+				<div class="relative flex flex-col"></div>
+			</div>
+		</div>
+	</div>
