@@ -7,6 +7,8 @@
 	} from 'heroicons-svelte/24/solid';
 
 	import { Popover } from 'flowbite-svelte';
+
+	import Category from './Category.svelte';
 </script>
 
 <div class="relative hidden h-10 w-full bg-transparent px-2 py-2 md:block">
@@ -31,7 +33,9 @@
 					<Square3Stack3dIcon class="h-4 w-4 " />
 				</button>
 				<Popover triggeredBy="#catsLink" trigger="click"
-					><div class="h-[calc(100dvh-200px)] w-[calc(100dvw-200px)] bg-neutral-100"></div></Popover
+					><div class="h-auto w-auto bg-neutral-100">
+						<Category />
+					</div></Popover
 				>
 			</li>
 			<li class="text-gray-500 hover:text-gray-800">
