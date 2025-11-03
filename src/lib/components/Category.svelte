@@ -1,49 +1,30 @@
 <script lang="ts">
-	import { Button } from 'flowbite-svelte';
+	import { Tabs, TabItem } from 'flowbite-svelte';
 </script>
 
-<div class="flex h-[400px] rounded-lg border">
-	<!-- Tabs list -->
-	<ul class="flex w-40 flex-col border-r border-gray-50" id="vertical-tabs" role="tablist">
-		<li>
-			<Button
-				class="w-full px-4 py-2 text-left hover:bg-gray-300 focus:outline-none"
-				id="tab-1"
-				data-tabs-target="tab-content-1"
-				type="button"
-				role="tab"
-			>
-				Tab 1
-			</Button>
-		</li>
-		<li>
-			<Button
-				class="w-full px-4 py-2 text-left hover:bg-gray-300 focus:outline-none"
-				id="tab-2"
-				data-tabs-target="tab-content-2"
-				type="button"
-				role="tab"
-			>
-				Tab 2
-			</Button>
-		</li>
-		<li>
-			<Button
-				class="w-full px-4 py-2 text-left hover:bg-gray-300 focus:outline-none"
-				id="tab-3"
-				data-tabs-target="tab-content-3"
-				type="button"
-				role="tab"
-			>
-				Tab 3
-			</Button>
-		</li>
-	</ul>
-
-	<!-- Tabs content -->
-	<div class="flex-1 p-4">
-		<div id="tab-content-1" role="tabpanel">Content 1</div>
-		<div id="tab-content-2" role="tabpanel" class="hidden">Content 2</div>
-		<div id="tab-content-3" role="tabpanel" class="hidden">Content 3</div>
-	</div>
-</div>
+<Tabs
+	tabStyle="full"
+	class="flex flex-col divide-y divide-gray-200 rounded-lg shadow-sm rtl:divide-x-reverse dark:divide-gray-700"
+	ulClass="w-52 bg-blue-300"
+>
+	<TabItem class="flex w-52 flex-row" open>
+		{#snippet titleSlot()}
+			<span>Profile</span>
+		{/snippet}
+		<p class=" text-sm text-gray-500 dark:text-gray-400">
+			<b>Profile:</b>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+			et dolore magna aliqua.
+		</p>
+	</TabItem>
+	<TabItem class="w-52">
+		{#snippet titleSlot()}
+			<span>Dashboard</span>
+		{/snippet}
+		<p class="text-sm text-gray-500 dark:text-gray-400">
+			<b>Dashboard:</b>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+			et dolore magna aliqua.
+		</p>
+	</TabItem>
+</Tabs>
