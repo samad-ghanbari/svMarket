@@ -10,7 +10,7 @@
 
 	import Category from './Category.svelte';
 
-	let activeIndex: number = 0;
+	let activeIndex: number = 1;
 </script>
 
 <div class="relative hidden h-10 w-full bg-transparent px-2 py-2 md:block">
@@ -105,61 +105,211 @@
 				<div
 					class="absolute right-0 hidden h-auto w-auto border border-gray-200 bg-neutral-100 p-2 shadow-lg group-hover:block"
 				>
-					<div class="flex flex-row items-center justify-center">
-						<div class="h-auto w-80 bg-neutral-100"></div>
-						<div id="catsListId" class="flex h-auto w-40 flex-col items-center justify-end p-1">
+					<div
+						class="flex h-auto w-auto flex-row items-start justify-center overflow-x-hidden overflow-y-auto"
+					>
+						<div class="h-auto w-auto min-w-52 overflow-y-auto bg-neutral-100">
+							<div
+								class=" flex max-h-[500px] w-full flex-col"
+								class:block={activeIndex == 1}
+								class:hidden={activeIndex != 1}
+							>
+								<ul class="min-w-24 flex-1 p-4">
+									<li class="m-4 min-w-16 pr-4">title 1</li>
+									<li class="min-w-16 pr-4">item 1</li>
+									<li class="min-w-16 pr-4">item 2</li>
+									<li class="min-w-16 pr-4">item 3</li>
+									<li class="min-w-16 pr-4">item 4</li>
+									<li class="min-w-16 pr-4">item 5</li>
+									<li class="min-w-16 pr-4">item 6</li>
+									<li class="min-w-16 pr-4">item 7</li>
+									<li class="min-w-16 pr-4">item 8</li>
+									<li class="min-w-16 pr-4">item 9</li>
+									<li class="min-w-16 pr-4">item 10</li>
+								</ul>
+
+								<ul class="min-w-24 flex-1 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+
+								<ul class="min-w-24 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+
+								<ul class="min-w-24 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+
+								<ul class="min-w-24 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+
+								<ul class="min-w-24 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+
+								<ul class="min-w-24 p-2">
+									<li class="m-4 min-w-16 pr-4">title 1-</li>
+									<li class="min-w-16 pr-4">item 1-</li>
+									<li class="min-w-16 pr-4">item 2-</li>
+									<li class="min-w-16 pr-4">item 3-</li>
+									<li class="min-w-16 pr-4">item 4-</li>
+									<li class="min-w-16 pr-4">item 5-</li>
+									<li class="min-w-16 pr-4">item 6-</li>
+									<li class="min-w-16 pr-4">item 7-</li>
+									<li class="min-w-16 pr-4">item 8-</li>
+									<li class="min-w-16 pr-4">item 9-</li>
+									<li class="min-w-16 pr-4">item 10-</li>
+								</ul>
+							</div>
+
+							<div
+								class="h-1/2 w-auto overflow-y-auto"
+								class:block={activeIndex == 2}
+								class:hidden={activeIndex != 2}
+							>
+								لبنیات
+							</div>
+
+							<div
+								class="h-full w-full"
+								class:block={activeIndex == 3}
+								class:hidden={activeIndex != 3}
+							>
+								حبوبات
+							</div>
+
+							<div
+								class="h-full w-full"
+								class:block={activeIndex == 4}
+								class:hidden={activeIndex != 4}
+							>
+								تنقلات
+							</div>
+
+							<div
+								class="h-full w-full"
+								class:block={activeIndex == 5}
+								class:hidden={activeIndex != 5}
+							>
+								نظافتی و بهداشتی
+							</div>
+
+							<div
+								class="h-full w-full"
+								class:block={activeIndex == 6}
+								class:hidden={activeIndex != 6}
+							>
+								ادویه‌جات
+							</div>
+
+							<div
+								class="h-full w-full"
+								class:block={activeIndex == 7}
+								class:hidden={activeIndex != 7}
+							>
+								نوشیدنی‌ها
+							</div>
+						</div>
+
+						<div id="catsListId" class="flex h-auto w-40 flex-col items-start justify-end p-1">
 							<a
 								href="/"
 								on:click={() => (activeIndex = 1)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 1}
 								class:text-black={activeIndex == 1}
 								class:bg-white={activeIndex != 1}
-								class:text-gray-500={activeIndex != 1}
-								class:activeItem={activeIndex == 1}>خواروبار</a
+								class:text-gray-500={activeIndex != 1}>خواروبار</a
 							>
 							<a
 								href="/"
 								on:click={() => (activeIndex = 2)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 2}
 								class:text-black={activeIndex == 2}
 								class:bg-white={activeIndex != 2}
-								class:text-gray-500={activeIndex != 2}
-								class:activeItem={activeIndex == 2}>لبنیات</a
+								class:text-gray-500={activeIndex != 2}>لبنیات</a
 							>
 
 							<a
 								href="/"
 								on:click={() => (activeIndex = 3)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 3}
 								class:text-black={activeIndex == 3}
 								class:bg-white={activeIndex != 3}
-								class:text-gray-500={activeIndex != 3}
-								class:activeItem={activeIndex == 3}>حبوبات</a
+								class:text-gray-500={activeIndex != 3}>حبوبات</a
 							>
 
 							<a
 								href="/"
 								on:click={() => (activeIndex = 4)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 4}
 								class:text-black={activeIndex == 4}
 								class:bg-white={activeIndex != 4}
-								class:text-gray-500={activeIndex != 4}
-								class:activeItem={activeIndex == 4}>تنقلات</a
+								class:text-gray-500={activeIndex != 4}>تنقلات</a
 							>
 
 							<a
 								href="/"
 								on:click={() => (activeIndex = 5)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 5}
 								class:text-black={activeIndex == 5}
 								class:bg-white={activeIndex != 5}
 								class:text-gray-500={activeIndex != 5}
-								class:activeItem={activeIndex == 5}
 							>
 								نظافتی و بهداشتی
 							</a>
@@ -167,23 +317,21 @@
 							<a
 								href="/"
 								on:click={() => (activeIndex = 6)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
-								class:bg-neutral-100={activeIndex == 7}
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
+								class:bg-neutral-100={activeIndex == 6}
 								class:text-black={activeIndex == 6}
 								class:bg-white={activeIndex != 6}
-								class:text-gray-500={activeIndex != 6}
-								class:activeItem={activeIndex == 6}>ادویه‌جات</a
+								class:text-gray-500={activeIndex != 6}>ادویه‌جات</a
 							>
 
 							<a
 								href="/"
 								on:click={() => (activeIndex = 7)}
-								class="w-40 border border-gray-100 px-2 py-2 text-right text-sm text-gray-500"
+								class="w-40 border-r-6 border-white px-2 py-2 text-right text-sm text-gray-500"
 								class:bg-neutral-100={activeIndex == 7}
 								class:text-black={activeIndex == 7}
 								class:bg-white={activeIndex != 7}
-								class:text-gray-500={activeIndex != 7}
-								class:activeItem={activeIndex == 7}>نوشیدنی‌ها</a
+								class:text-gray-500={activeIndex != 7}>نوشیدنی‌ها</a
 							>
 						</div>
 					</div>
