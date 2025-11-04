@@ -3,7 +3,6 @@
 		Search,
 		GradientButton,
 		Tooltip,
-		Popover,
 		Avatar,
 		Listgroup,
 		ListgroupItem,
@@ -73,20 +72,12 @@
 		{/if}
 
 		{#if signedIn}
-			<button id="profileBtn" class=" ml-4 hidden h-6 w-6 border-0 bg-transparent md:block">
+			<div class="group relative ml-4 hidden h-6 w-6 border-0 bg-transparent md:block">
 				<div class="flex flex-col text-neutral-400 hover:text-neutral-500">
 					<UserIcon class="h-6 w-6 " />
 					<ChevronDownIcon class="w4 -mt-1 h-4 " />
 				</div>
-			</button>
-			<Tooltip
-				triggeredBy="#profileBtn"
-				class="bg-neutral-100 text-gray-500"
-				type="light"
-				placement="bottom">پروفایل کاربر</Tooltip
-			>
-			<Popover triggeredBy="#profileBtn" trigger="click" class="bg-neutral-100">
-				<div class="mb-1 h-auto w-52">
+				<div class="absolute -left-8 hidden w-56 bg-neutral-100 p-2 shadow-2xl group-hover:block">
 					<Listgroup active class="w-full">
 						<ListgroupItem
 							class="h-14 justify-end hover:bg-blue-100 hover:text-black active:text-black active:ring-0"
@@ -129,7 +120,7 @@
 						</ListgroupItem>
 					</Listgroup>
 				</div>
-			</Popover>
+			</div>
 		{/if}
 	</div>
 
