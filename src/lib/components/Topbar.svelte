@@ -35,18 +35,6 @@
 	class="relative z-10 flex h-[50px] w-full items-center justify-end bg-linear-60 from-blue-50 to-neutral-100"
 >
 	<div class="mr-auto ml-4 flex h-10 w-[140px] items-center justify-start">
-		{#if signedIn}
-			<button id="messagesBtn" class=" h-6 w-6 border-0 bg-transparent">
-				<ChatBubbleLeftRightIcon class="h-6 w-6 text-neutral-400 hover:text-neutral-500" />
-			</button>
-			<Tooltip
-				class="bg-neutral-100 text-gray-500"
-				triggeredBy="#messagesBtn"
-				type="light"
-				placement="bottom">پیام‌های دریافتی</Tooltip
-			>
-		{/if}
-
 		<a id="shoppingBtn" class=" ml-4 hidden h-6 w-6 md:block" href="/">
 			<ShoppingCartIcon class="h-6 w-6 text-neutral-400 hover:text-neutral-500" />
 		</a>
@@ -85,6 +73,14 @@
 						>
 							صمد قنبری
 							<Avatar src="/assets/images/user.png" alt="صمد" />
+						</ListgroupItem>
+
+						<ListgroupItem
+							class="justify-end hover:text-black active:text-black active:ring-0"
+							href="/"
+						>
+							پیام‌ها
+							<ChatBubbleLeftRightIcon class="mr-2 inline h-5 w-5 text-right text-gray-500" />
 						</ListgroupItem>
 
 						<ListgroupItem
