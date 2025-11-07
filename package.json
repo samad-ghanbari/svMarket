@@ -28,9 +28,12 @@
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.18",
 		"@tailwindcss/vite": "^4.1.13",
+		"@types/crypto-js": "^4.2.2",
 		"@types/express": "^5.0.5",
+		"@types/jsonwebtoken": "^9.0.10",
 		"@types/node": "^22.18.13",
 		"concurrently": "^9.2.1",
+		"crypto-js": "^4.2.0",
 		"eslint": "^9.36.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.12.4",
@@ -49,10 +52,12 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.4.0",
+		"canvas": "^3.2.0",
 		"dotenv": "^17.2.3",
 		"express": "^5.1.0",
 		"flowbite-svelte": "^1.20.0",
 		"heroicons-svelte": "^2.0.2",
+		"jsonwebtoken": "^9.0.2",
 		"mongoose": "^8.19.2"
 	}
 }

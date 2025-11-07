@@ -20,7 +20,7 @@
 		ArrowRightOnRectangleIcon
 	} from 'heroicons-svelte/24/solid';
 
-	let signedIn: boolean = $state(true);
+	let signedIn: boolean = $state(false);
 
 	function handleSearch() {
 		console.log('searching');
@@ -46,7 +46,7 @@
 		>
 
 		{#if !signedIn}
-			<a id="signupBtn" class=" ml-4 hidden h-6 w-6 md:block" href="/">
+			<a id="signupBtn" class=" ml-4 hidden h-6 w-6 md:block" href="/login">
 				<ArrowLeftOnRectangleIcon
 					class="h-6 w-6 font-bold text-neutral-400 hover:text-neutral-500"
 				/>
