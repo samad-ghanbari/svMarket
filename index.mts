@@ -7,7 +7,7 @@ import mainRouter from '#backend/routes/mainRouter.mts';
 dotenv.config({ debug: false });
 
 const app = express();
-
+app.use(express.json());
 app.use('/api', mainRouter);
 
 //app.use(handler);
