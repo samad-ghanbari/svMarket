@@ -6,7 +6,10 @@ export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	server: {
 		host: 'localhost',
-		port: 3000
+		port: 3000,
+		proxy: {
+			'/api': 'http://localhost:4000'
+		}
 	}
 });
 
