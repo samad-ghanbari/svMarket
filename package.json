@@ -4,7 +4,11 @@
 	"version": "0.0.1",
 	"type": "module",
 	"imports": {
-		"#backend/*": "./backend/*"
+		"#backend/*": "./backend/*",
+		"#root/*": "./*",
+		"#lib/*": "./src/lib/*",
+		"#src/*": "./src/*",
+		"#types/*": "./src/lib/types/*"
 	},
 	"scripts": {
 		"sv-dev": "vite dev",
